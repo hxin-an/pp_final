@@ -1,0 +1,177 @@
+Benchmark Run at Sun Nov 30 19:11:49 2025
+
+=== 9x9 Sudoku Benchmark ===
+Difficulty | Solver                    | Threads  | Time (ms) 
+--------------------------------------------------------------
+Running Easy tests (5 trials)...
+Running Medium tests (5 trials)...
+Running Hard tests (5 trials)...
+Running Expert tests (5 trials)...
+
+================================================================================
+Difficulty | Solver                    | Threads  | Avg Time (ms)  
+================================================================================
+Easy       | sudoku_serial             | 1        | 0.0035
+Easy       | sudoku_omp                | 1        | 0.0073
+Easy       | sudoku_omp                | 2        | 0.0463
+Easy       | sudoku_omp                | 4        | 0.0853
+Easy       | sudoku_omp                | 8        | 1.9511
+Easy       | sudoku_omp                | 12       | 2.3886
+Easy       | sudoku_omp                | 16       | 10.6989
+Easy       | sudoku_omp                | 24       | 0.5135
+Easy       | sudoku_simd               | 1        | 0.0031
+Easy       | sudoku_omp_simd           | 1        | 0.0065
+Easy       | sudoku_omp_simd           | 2        | 0.0482
+Easy       | sudoku_omp_simd           | 4        | 0.0821
+Easy       | sudoku_omp_simd           | 8        | 0.2008
+Easy       | sudoku_omp_simd           | 12       | 0.2433
+Easy       | sudoku_omp_simd           | 16       | 9.9606
+Easy       | sudoku_omp_simd           | 24       | 0.4925
+--------------------------------------------------------------------------------
+Winner for Easy: sudoku_simd (Threads: 1) (0.0031 ms)
+================================================================================
+Medium     | sudoku_serial             | 1        | 0.0176
+Medium     | sudoku_omp                | 1        | 0.0198
+Medium     | sudoku_omp                | 2        | 0.0613
+Medium     | sudoku_omp                | 4        | 0.1218
+Medium     | sudoku_omp                | 8        | 0.2229
+Medium     | sudoku_omp                | 12       | 0.2957
+Medium     | sudoku_omp                | 16       | 6.2837
+Medium     | sudoku_omp                | 24       | 0.5978
+Medium     | sudoku_simd               | 1        | 0.0104
+Medium     | sudoku_omp_simd           | 1        | 0.0156
+Medium     | sudoku_omp_simd           | 2        | 0.0617
+Medium     | sudoku_omp_simd           | 4        | 0.1192
+Medium     | sudoku_omp_simd           | 8        | 0.2259
+Medium     | sudoku_omp_simd           | 12       | 0.3197
+Medium     | sudoku_omp_simd           | 16       | 6.0779
+Medium     | sudoku_omp_simd           | 24       | 0.5286
+--------------------------------------------------------------------------------
+Winner for Medium: sudoku_simd (Threads: 1) (0.0104 ms)
+================================================================================
+Hard       | sudoku_serial             | 1        | 0.0307
+Hard       | sudoku_omp                | 1        | 0.0555
+Hard       | sudoku_omp                | 2        | 0.0948
+Hard       | sudoku_omp                | 4        | 0.1857
+Hard       | sudoku_omp                | 8        | 0.2495
+Hard       | sudoku_omp                | 12       | 1.1753
+Hard       | sudoku_omp                | 16       | 6.9790
+Hard       | sudoku_omp                | 24       | 0.5390
+Hard       | sudoku_simd               | 1        | 0.0177
+Hard       | sudoku_omp_simd           | 1        | 0.0220
+Hard       | sudoku_omp_simd           | 2        | 0.0738
+Hard       | sudoku_omp_simd           | 4        | 0.1438
+Hard       | sudoku_omp_simd           | 8        | 0.2320
+Hard       | sudoku_omp_simd           | 12       | 0.3110
+Hard       | sudoku_omp_simd           | 16       | 2.3653
+Hard       | sudoku_omp_simd           | 24       | 0.5288
+--------------------------------------------------------------------------------
+Winner for Hard: sudoku_simd (Threads: 1) (0.0177 ms)
+================================================================================
+Expert     | sudoku_serial             | 1        | 0.0583
+Expert     | sudoku_omp                | 1        | 0.0754
+Expert     | sudoku_omp                | 2        | 0.1431
+Expert     | sudoku_omp                | 4        | 0.2342
+Expert     | sudoku_omp                | 8        | 0.5089
+Expert     | sudoku_omp                | 12       | 0.4829
+Expert     | sudoku_omp                | 16       | 5.8783
+Expert     | sudoku_omp                | 24       | 1.0324
+Expert     | sudoku_simd               | 1        | 0.0301
+Expert     | sudoku_omp_simd           | 1        | 0.0408
+Expert     | sudoku_omp_simd           | 2        | 0.0902
+Expert     | sudoku_omp_simd           | 4        | 0.1628
+Expert     | sudoku_omp_simd           | 8        | 0.2807
+Expert     | sudoku_omp_simd           | 12       | 0.3892
+Expert     | sudoku_omp_simd           | 16       | 5.8288
+Expert     | sudoku_omp_simd           | 24       | 0.5593
+--------------------------------------------------------------------------------
+Winner for Expert: sudoku_simd (Threads: 1) (0.0301 ms)
+================================================================================
+
+=== 16x16 Sudoku Benchmark ===
+Difficulty | Solver                    | Threads  | Time (ms) 
+--------------------------------------------------------------
+Running Easy tests (5 trials)...
+Running Medium tests (5 trials)...
+Running Hard tests (5 trials)...
+Running Expert tests (5 trials)...
+
+================================================================================
+Difficulty | Solver                    | Threads  | Avg Time (ms)  
+================================================================================
+Easy       | sudoku_serial_16          | 1        | 0.0295
+Easy       | sudoku_omp_16             | 1        | 0.0310
+Easy       | sudoku_omp_16             | 2        | 0.0729
+Easy       | sudoku_omp_16             | 4        | 0.1344
+Easy       | sudoku_omp_16             | 8        | 0.3753
+Easy       | sudoku_omp_16             | 12       | 0.5034
+Easy       | sudoku_omp_16             | 16       | 0.3874
+Easy       | sudoku_omp_16             | 24       | 0.5092
+Easy       | sudoku_simd_16            | 1        | 0.0200
+Easy       | sudoku_omp_simd_16        | 1        | 0.0197
+Easy       | sudoku_omp_simd_16        | 2        | 0.0630
+Easy       | sudoku_omp_simd_16        | 4        | 0.1084
+Easy       | sudoku_omp_simd_16        | 8        | 0.1986
+Easy       | sudoku_omp_simd_16        | 12       | 0.2704
+Easy       | sudoku_omp_simd_16        | 16       | 3.6115
+Easy       | sudoku_omp_simd_16        | 24       | 0.4832
+--------------------------------------------------------------------------------
+Winner for Easy: sudoku_omp_simd_16 (Threads: 1) (0.0197 ms)
+================================================================================
+Medium     | sudoku_serial_16          | 1        | 0.1343
+Medium     | sudoku_omp_16             | 1        | 0.1557
+Medium     | sudoku_omp_16             | 2        | 0.2231
+Medium     | sudoku_omp_16             | 4        | 0.2752
+Medium     | sudoku_omp_16             | 8        | 0.3867
+Medium     | sudoku_omp_16             | 12       | 0.7593
+Medium     | sudoku_omp_16             | 16       | 7.6070
+Medium     | sudoku_omp_16             | 24       | 0.7128
+Medium     | sudoku_simd_16            | 1        | 0.0826
+Medium     | sudoku_omp_simd_16        | 1        | 0.0712
+Medium     | sudoku_omp_simd_16        | 2        | 0.1325
+Medium     | sudoku_omp_simd_16        | 4        | 0.2014
+Medium     | sudoku_omp_simd_16        | 8        | 0.2860
+Medium     | sudoku_omp_simd_16        | 12       | 0.3866
+Medium     | sudoku_omp_simd_16        | 16       | 6.9212
+Medium     | sudoku_omp_simd_16        | 24       | 0.5607
+--------------------------------------------------------------------------------
+Winner for Medium: sudoku_omp_simd_16 (Threads: 1) (0.0712 ms)
+================================================================================
+Hard       | sudoku_serial_16          | 1        | 21.1426
+Hard       | sudoku_omp_16             | 1        | 78.7652
+Hard       | sudoku_omp_16             | 2        | 151.8405
+Hard       | sudoku_omp_16             | 4        | 157.1905
+Hard       | sudoku_omp_16             | 8        | 180.7216
+Hard       | sudoku_omp_16             | 12       | 185.3599
+Hard       | sudoku_omp_16             | 16       | 189.0284
+Hard       | sudoku_omp_16             | 24       | 459.4618
+Hard       | sudoku_simd_16            | 1        | 11.1739
+Hard       | sudoku_omp_simd_16        | 1        | 11.0584
+Hard       | sudoku_omp_simd_16        | 2        | 9.1000
+Hard       | sudoku_omp_simd_16        | 4        | 8.1737
+Hard       | sudoku_omp_simd_16        | 8        | 3.3304
+Hard       | sudoku_omp_simd_16        | 12       | 3.0423
+Hard       | sudoku_omp_simd_16        | 16       | 3.6771
+Hard       | sudoku_omp_simd_16        | 24       | 3.4806
+--------------------------------------------------------------------------------
+Winner for Hard: sudoku_omp_simd_16 (Threads: 12) (3.0423 ms)
+================================================================================
+Expert     | sudoku_serial_16          | 1        | 2066.7886
+Expert     | sudoku_omp_16             | 1        | 658.8566
+Expert     | sudoku_omp_16             | 2        | 943.2935
+Expert     | sudoku_omp_16             | 4        | 9.8694
+Expert     | sudoku_omp_16             | 8        | Failed/Timeout
+Expert     | sudoku_omp_16             | 12       | Failed/Timeout
+Expert     | sudoku_omp_16             | 16       | Failed/Timeout
+Expert     | sudoku_omp_16             | 24       | Failed/Timeout
+Expert     | sudoku_simd_16            | 1        | 1221.2951
+Expert     | sudoku_omp_simd_16        | 1        | 1213.3518
+Expert     | sudoku_omp_simd_16        | 2        | 64.0569
+Expert     | sudoku_omp_simd_16        | 4        | 60.4802
+Expert     | sudoku_omp_simd_16        | 8        | 3.5464
+Expert     | sudoku_omp_simd_16        | 12       | 14.8998
+Expert     | sudoku_omp_simd_16        | 16       | 6.3240
+Expert     | sudoku_omp_simd_16        | 24       | 1.1519
+--------------------------------------------------------------------------------
+Winner for Expert: sudoku_omp_simd_16 (Threads: 24) (1.1519 ms)
+================================================================================

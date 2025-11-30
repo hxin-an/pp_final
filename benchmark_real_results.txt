@@ -1,0 +1,59 @@
+Real Benchmark Run at Sun Nov 30 19:05:39 2025
+Running easy tests (3 files)...
+Running medium tests (3 files)...
+Running hard tests (3 files)...
+
+================================================================================
+Difficulty | Solver                    | Threads  | Avg Time (ms)  
+================================================================================
+easy       | sudoku_serial             | 1        | 0.0359
+easy       | sudoku_omp                | 1        | 0.0495
+easy       | sudoku_omp                | 2        | 0.0838
+easy       | sudoku_omp                | 4        | 0.1462
+easy       | sudoku_omp                | 8        | 0.2599
+easy       | sudoku_omp                | 12       | 0.3681
+easy       | sudoku_omp                | 16       | 8.3246
+easy       | sudoku_omp                | 24       | 0.5478
+easy       | sudoku_simd               | 1        | 0.0215
+easy       | sudoku_omp_simd           | 1        | 0.0254
+easy       | sudoku_omp_simd           | 2        | 0.0740
+easy       | sudoku_omp_simd           | 4        | 0.1448
+easy       | sudoku_omp_simd           | 8        | 0.2466
+easy       | sudoku_omp_simd           | 12       | 3.0901
+easy       | sudoku_omp_simd           | 16       | 8.7808
+easy       | sudoku_omp_simd           | 24       | 0.5350
+--------------------------------------------------------------------------------
+medium     | sudoku_serial             | 1        | 0.0742
+medium     | sudoku_omp                | 1        | 0.0714
+medium     | sudoku_omp                | 2        | 0.1112
+medium     | sudoku_omp                | 4        | 0.1896
+medium     | sudoku_omp                | 8        | 0.2801
+medium     | sudoku_omp                | 12       | 0.3536
+medium     | sudoku_omp                | 16       | 2.4130
+medium     | sudoku_omp                | 24       | 0.5559
+medium     | sudoku_simd               | 1        | 0.0382
+medium     | sudoku_omp_simd           | 1        | 0.0401
+medium     | sudoku_omp_simd           | 2        | 0.0846
+medium     | sudoku_omp_simd           | 4        | 0.1600
+medium     | sudoku_omp_simd           | 8        | 0.2378
+medium     | sudoku_omp_simd           | 12       | 0.3173
+medium     | sudoku_omp_simd           | 16       | 3.2943
+medium     | sudoku_omp_simd           | 24       | 0.4932
+--------------------------------------------------------------------------------
+hard       | sudoku_serial             | 1        | 0.2226
+hard       | sudoku_omp                | 1        | 0.3252
+hard       | sudoku_omp                | 2        | 0.2674
+hard       | sudoku_omp                | 4        | 0.3274
+hard       | sudoku_omp                | 8        | 0.3489
+hard       | sudoku_omp                | 12       | 0.4604
+hard       | sudoku_omp                | 16       | 3.7809
+hard       | sudoku_omp                | 24       | 0.7535
+hard       | sudoku_simd               | 1        | 0.1471
+hard       | sudoku_omp_simd           | 1        | 0.1195
+hard       | sudoku_omp_simd           | 2        | 0.1798
+hard       | sudoku_omp_simd           | 4        | 0.2348
+hard       | sudoku_omp_simd           | 8        | 0.3130
+hard       | sudoku_omp_simd           | 12       | 0.4342
+hard       | sudoku_omp_simd           | 16       | 5.8446
+hard       | sudoku_omp_simd           | 24       | 0.6214
+--------------------------------------------------------------------------------

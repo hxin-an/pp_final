@@ -1,0 +1,24 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+build/sudoku_*
+*.out
+*.exe
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
