@@ -1,0 +1,64 @@
+Parallel Benchmark Run at Mon Dec  1 15:03:39 2025
+
+============================
+ Parallel Benchmark 9x9
+============================
+Difficulty | Solver       | Time (ms) 
+
+Difficulty: Easy (35 removals)
+--------------------------------------------------
+Easy       | CUDA         | Failed/Timeout
+Easy       | OMP          | 0.0015
+Easy       | MPI          | 0.0962
+Easy       | PTHREAD      | 0.1649
+
+Difficulty: Medium (45 removals)
+--------------------------------------------------
+Medium     | CUDA         | Failed/Timeout
+Medium     | OMP          | 0.0013
+Medium     | MPI          | 0.0358
+Medium     | PTHREAD      | 0.1340
+
+Difficulty: Hard (52 removals)
+--------------------------------------------------
+Hard       | CUDA         | Failed/Timeout
+Hard       | OMP          | 0.0013
+Hard       | MPI          | 0.0738
+Hard       | PTHREAD      | 0.1342
+
+Difficulty: Expert (58 removals)
+--------------------------------------------------
+Expert     | CUDA         | Failed/Timeout
+Expert     | OMP          | 0.0015
+Expert     | MPI          | 0.1178
+Expert     | PTHREAD      | 0.1384
+
+
+============================
+ Parallel Benchmark 16x16
+============================
+Difficulty | Solver       | Time (ms) 
+
+Difficulty: Easy (100 removals)
+--------------------------------------------------
+Easy       | CUDA         | Failed/Timeout
+Easy       | OMP          | 0.0014
+Easy       | MPI          | 0.2064
+Easy       | PTHREAD      | 0.2103
+
+Difficulty: Medium (128 removals)
+--------------------------------------------------
+Medium     | CUDA         | Failed/Timeout
+Medium     | OMP          | 0.0012
+Medium     | MPI          | 0.1919
+Medium     | PTHREAD      | 0.2517
+
+Difficulty: Hard (150 removals)
+--------------------------------------------------
+Hard       | CUDA         | Failed/Timeout
+Hard       | OMP          | 0.0016
+Hard       | MPI          | 21.4864
+Hard       | PTHREAD      | 6.7396
+
+Difficulty: Expert (180 removals)
+--------------------------------------------------

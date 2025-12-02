@@ -1,0 +1,115 @@
+Benchmark Run at Sun Nov 30 23:59:21 2025
+
+============================
+   Benchmark 9x9
+============================
+Difficulty | Solver                    | Time (ms) 
+
+Difficulty: Easy (35 removals)
+--------------------------------------------------
+Easy       | generic_backtrack         | Failed/Timeout
+Easy       | generic_bitset            | Failed/Timeout
+Easy       | generic_csp               | Failed/Timeout
+Easy       | generic_pruning           | Failed/Timeout
+Easy       | generic_dlx               | Failed/Timeout
+
+Difficulty: Medium (45 removals)
+--------------------------------------------------
+Medium     | generic_backtrack         | Failed/Timeout
+Medium     | generic_bitset            | Failed/Timeout
+Medium     | generic_csp               | Failed/Timeout
+Medium     | generic_pruning           | Failed/Timeout
+Medium     | generic_dlx               | Failed/Timeout
+
+Difficulty: Hard (52 removals)
+--------------------------------------------------
+Hard       | generic_backtrack         | Failed/Timeout
+Hard       | generic_bitset            | Failed/Timeout
+Hard       | generic_csp               | Failed/Timeout
+Hard       | generic_pruning           | Failed/Timeout
+Hard       | generic_dlx               | Failed/Timeout
+
+Difficulty: Expert (58 removals)
+--------------------------------------------------
+Expert     | generic_backtrack         | Failed/Timeout
+Expert     | generic_bitset            | Failed/Timeout
+Expert     | generic_csp               | Failed/Timeout
+Expert     | generic_pruning           | Failed/Timeout
+Expert     | generic_dlx               | Failed/Timeout
+
+
+============================
+   Benchmark 16x16
+============================
+Difficulty | Solver                    | Time (ms) 
+
+Difficulty: Easy (100 removals)
+--------------------------------------------------
+Easy       | generic_backtrack         | Failed/Timeout
+Easy       | generic_bitset            | Failed/Timeout
+Easy       | generic_csp               | Failed/Timeout
+Easy       | generic_pruning           | Failed/Timeout
+Easy       | generic_dlx               | Failed/Timeout
+
+Difficulty: Medium (128 removals)
+--------------------------------------------------
+Medium     | generic_backtrack         | Failed/Timeout
+Medium     | generic_bitset            | Failed/Timeout
+Medium     | generic_csp               | Failed/Timeout
+Medium     | generic_pruning           | Failed/Timeout
+Medium     | generic_dlx               | Failed/Timeout
+
+Difficulty: Hard (150 removals)
+--------------------------------------------------
+Hard       | generic_backtrack         | Failed/Timeout
+Hard       | generic_bitset            | Failed/Timeout
+Hard       | generic_csp               | Failed/Timeout
+Hard       | generic_pruning           | Failed/Timeout
+Hard       | generic_dlx               | Failed/Timeout
+
+Difficulty: Expert (180 removals)
+--------------------------------------------------
+Expert     | generic_backtrack         | Failed/Timeout
+Expert     | generic_bitset            | Failed/Timeout
+Expert     | generic_csp               | Failed/Timeout
+Expert     | generic_pruning           | Failed/Timeout
+Expert     | generic_dlx               | Failed/Timeout
+
+
+============================
+   Benchmark 25x25
+============================
+Difficulty | Solver                    | Time (ms) 
+
+Difficulty: Easy (180 removals)
+--------------------------------------------------
+Easy       | generic_backtrack         | Failed/Timeout
+Easy       | generic_bitset            | Failed/Timeout
+Easy       | generic_csp               | Failed/Timeout
+Easy       | generic_pruning           | Failed/Timeout
+Easy       | generic_dlx               | Failed/Timeout
+
+Difficulty: Medium (250 removals)
+--------------------------------------------------
+Medium     | generic_backtrack         | Failed/Timeout
+Medium     | generic_bitset            | Failed/Timeout
+Medium     | generic_csp               | Failed/Timeout
+Medium     | generic_pruning           | Failed/Timeout
+Medium     | generic_dlx               | Failed/Timeout
+
+Difficulty: Hard (300 removals)
+--------------------------------------------------
+Hard       | generic_backtrack         | Failed/Timeout
+Hard       | generic_bitset            | Failed/Timeout
+Hard       | generic_csp               | Failed/Timeout
+Hard       | generic_pruning           | Failed/Timeout
+Hard       | generic_dlx               | Failed/Timeout
+
+Difficulty: Expert (350 removals)
+--------------------------------------------------
+Expert     | generic_backtrack         | Failed/Timeout
+Expert     | generic_bitset            | Failed/Timeout
+Expert     | generic_csp               | Failed/Timeout
+Expert     | generic_pruning           | Failed/Timeout
+Expert     | generic_dlx               | Failed/Timeout
+

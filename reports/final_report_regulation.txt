@@ -1,0 +1,20 @@
+The final report should follow ACM SIG Processings Templates (https://www.acm.org/publications/proceedings-template). Please use the ACM Sigconf format.
+
+The report should be 4 to 8 pages long, formatted with 9-point font.
+
+The sections for the final report should include:
+
+Title
+The participant(s)
+Abstract: Summarize your contribution in 100 words or less. An informed reader should be able to stop at the abstract and know roughly what you are doing.
+Introduction: Background on the current state-of-the-art, why your topic is important, and what is the motivation for your work
+Proposed solution: Detailed description, but not code!
+How parallelization is done: Explain how you implemented parallelism, including your design decisions.
+Experimental methodology: Tests, input sets, environment, etc.
+Experimental results: Quantitative data and analysis!
+Related work: Relate your work to research by others. Any time you mention some other work, compare or contrast it to your own.
+Contributions of each member: Clearly state who did what.
+Conclusions: Highlight the important points of your analysis and contribution. Also give prospects for future research on this or related topics.
+References
+The final report can be written in English 
+
